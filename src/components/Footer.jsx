@@ -21,7 +21,7 @@ export default function Footer() {
               className="text-3xl mb-4"
               style={{ fontFamily: "Fraunces, serif" }}
             >
-              MEL
+              ML Carpentry
             </h3>
 
             <p className="text-[#d8cfc2] text-sm leading-relaxed max-w-sm">
@@ -79,7 +79,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-center text-xs text-[#cfc6b8]">
-          <p>© {new Date().getFullYear()} MEL. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} ML Carpentry. All rights reserved.</p>
 
           <p className="mt-3 md:mt-0">
             Orbit Studio

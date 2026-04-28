@@ -1,26 +1,30 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
+import work1 from "../assets/work1.png";
+import work2 from "../assets/work2.png";
+import work3 from "../assets/work3.png";
+import work4 from "../assets/work4.png";
 
 const projects = [
   {
     title: "Bespoke Kitchen Installation",
     category: "Residential",
-    image: "/project1.jpg",
+    image: work1,
   },
   {
     title: "Custom Staircase & Banister",
     category: "Interior Craftsmanship",
-    image: "/project2.jpg",
+    image: work2,
   },
   {
     title: "Fitted Storage Solutions",
     category: "Made to Measure",
-    image: "/project3.jpg",
+    image: work3,
   },
   {
     title: "Traditional Door Restoration",
     category: "Restoration",
-    image: "/project4.jpg",
+    image: work4,
   },
 ];
 

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Aboutimg from "../assets/aboutimg.png";
 
 export default function About() {
   return (
@@ -77,7 +78,7 @@ export default function About() {
           {/* Main image */}
           <div className="rounded-[32px] overflow-hidden shadow-[0_30px_70px_rgba(59,42,29,0.18)] relative">
             <img
-              src="/carpentry.jpg" // replace with your image
+              src={Aboutimg}
               alt="ML Carpentry Norwich"
               className="w-full h-[580px] object-cover"
             />
